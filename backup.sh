@@ -20,7 +20,7 @@ for db in $databases; do
    mysqldump -u $mysql_user $db > "${database_folder}/${db}.sql" 2> /dev/null 
 done
 
-### arhive & compress all files and databases ###
+### archive & compress all files and databases ###
 tar -cvzf "files.tar.gz" "${files_source}"
 mv "files.tar.gz" "${name_prefix}"
 mv "${database_folder}" "${name_prefix}"
