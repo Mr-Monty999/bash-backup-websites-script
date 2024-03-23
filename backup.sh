@@ -2,7 +2,7 @@
 
 mysql_user='root'
 files_source="/var/www"
-backup_folder="$(pwd)"
+backup_folder="$(pwd)/backups"
 database_folder="databases"
 name_prefix="$(date +%Y-%m-%d-%H%M%S)-backup"
 backup_file_name="${name_prefix}.tar.gz"
