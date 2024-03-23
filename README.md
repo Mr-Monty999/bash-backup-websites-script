@@ -1,8 +1,9 @@
 # bash-websites-backup-script
-
 # basic usage:
 
-first give the script permission to execute
+first make sure you have root permission
+
+then give the script permission to execute
 
 $ chmod 700 backup.sh
 
