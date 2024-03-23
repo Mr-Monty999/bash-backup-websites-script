@@ -1,4 +1,9 @@
 # bash-websites-backup-script
+
+# Requirements
+- root permission
+- mysql database
+
 # basic usage:
 
 first make sure you have root permission
