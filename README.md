@@ -18,7 +18,7 @@ $ ./backup.sh
 
 or you can add it to crob jobs 
 
-$ cron -e
+$ crontab -e
 
 append the following line 
 
