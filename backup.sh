@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mysql_user='root'
-files_source="/var"
+files_source="/var/www"
 backup_folder="$(pwd)/backups"
 database_folder="databases"
 name_prefix="$(date +%Y-%m-%d-%H%M%S)-backup"
